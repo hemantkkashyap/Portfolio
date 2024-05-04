@@ -17,24 +17,33 @@ export default function About() {
           and Development: I have a deep knowledge of creating visually
           appealing and functional websites. From front-end aesthetics to
           back-end functionality, I thrive on building seamless online
-          experiences.<br></br>
+          experiences.<br/>
+          <br/>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;➤ &nbsp;&nbsp; Desktop Application: I specialize in developing
+        robust desktop applications that cater to specific needs and enhance
+        user productivity. Whether it's designing intuitive user interfaces
+        or implementing complex algorithms, I enjoy crafting software solutions
+        that streamline tasks and improve efficiency.<br></br>
           <br></br>
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;➤ &nbsp;&nbsp; Desktop Application: .
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;➤ &nbsp;&nbsp; Open Source Contribution: I actively contribute to open source projects, leveraging collaborative development to enhance
+        software accessibility and functionality for the global community.
+        Through my contributions, I aim to foster innovation, support
+        inclusivity, and promote knowledge sharing within the open source
+        ecosystem.<br></br>
           <br></br>
-          <br></br>
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;➤ &nbsp;&nbsp; Open Source Contribution
-          :<br></br>
-          <br></br>
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;➤ &nbsp;&nbsp; Social Activism:<br></br>
-          <br></br>
-          {/*<div class="info-content2">
-           
-            <p class="title">Web Developer</p>
-            <p class="title">Cyber Security Enthusiast</p>
-            <p class="title">Graphical Designer</p>
-  
-  
-  </div>*/}
+          <div class="info-content2">
+          <p class="title">Java</p>    
+            <p class="title">HTML</p>
+            <p class="title">CSS</p>
+            <p class="title">Javascript</p>
+            <p class="title">React</p>
+            <p class="title">Node js</p>
+            <p class="title">DSA in Java</p>
+            <p class="title">Git & Github</p>
+            <p class="title">Docker</p>
+            <p class="title">Postman</p>
+            <p class="title">Figma</p>
+  </div>
         </p>
       </section>
 

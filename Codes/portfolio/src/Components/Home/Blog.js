@@ -17,7 +17,7 @@ export default function Blog() {
   <ul class="blog-posts-list">
 
     <li class="blog-post-item">
-      <Link to={''}>
+      <Link to={'https://leetcode.com/u/HEMANT_5/'}>
 
         <figure class="blog-banner-box">
       <img src="leetcode.png" loading="lazy"/>
@@ -31,7 +31,7 @@ export default function Blog() {
     </li>
 
     <li class="blog-post-item">
-      <Link to={''}>
+      <Link to={'https://github.com/hemantkkashyap'}>
 
         <figure class="blog-banner-box">
       <img src="github.svg" loading="lazy"/>
@@ -45,7 +45,7 @@ export default function Blog() {
     </li>
 
     <li class="blog-post-item">
-      <Link to={''}>
+      <Link to={'https://www.linkedin.com/in/hemant-kumar-kashyap'}>
 
         <figure class="blog-banner-box">
       <img src="Linkedin.svg" loading="lazy" style={{background:"white"}}/>
@@ -59,7 +59,7 @@ export default function Blog() {
     </li>
 
     <li class="blog-post-item">
-      <Link to={''}>
+      <Link to={'https://www.hackerrank.com/profile/kashyaphemant201'}>
 
         <figure class="blog-banner-box">
       <img src="hackerrank.svg" loading="lazy" style={{color:"white"}}/>

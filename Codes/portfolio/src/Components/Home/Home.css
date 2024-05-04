@@ -366,7 +366,12 @@
     padding: 3px 12px;
     border-radius: 8px;
   }
-  
+  .info-content2 .title:hover{
+    font-weight: var(--fw-500);
+    cursor: pointer;
+    color: black;
+    background: var(--orange-yellow-crayola);
+  }
   .info_more-btn {
     position: absolute;
     top: -15px;

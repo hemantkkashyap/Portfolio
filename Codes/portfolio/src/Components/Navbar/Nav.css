@@ -1850,16 +1850,26 @@
     padding: 3px 12px;
     border-radius: 8px;
   }
+  .info-content2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
   .info-content2 .title {
     color: var(--white-1);
     background: var(--onyx);
-    font-size: var(--fs-8);
+    font-size: var(--fs-6);
     font-weight: var(--fw-300);
     width: max-content;
     padding: 3px 12px;
     border-radius: 8px;
   }
-  
+  .info-content2 .title:hover{
+    font-weight: var(--fw-500);
+    cursor: pointer;
+    color: black;
+    background: var(--orange-yellow-crayola);
+  }
   .info_more-btn {
     position: absolute;
     top: -15px;
@@ -2005,8 +2015,8 @@
   
   .about-text {
     color: var(--light-gray);
-    font-size: var(--fs-6);
-    font-weight: var(--fw-300);
+    font-size: var(--fs-4);
+    font-weight: var(--fw-200);
     line-height: 1.6;
   }
   
