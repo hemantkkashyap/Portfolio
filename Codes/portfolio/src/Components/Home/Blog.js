@@ -20,7 +20,7 @@ export default function Blog() {
       <Link to={''}>
 
         <figure class="blog-banner-box">
-      <img src="Leetcode.png" loading="lazy"/>
+      <img src="leetcode.png" loading="lazy"/>
         </figure>
 
         <div class="blog-content">
@@ -34,7 +34,7 @@ export default function Blog() {
       <Link to={''}>
 
         <figure class="blog-banner-box">
-      <img src="Github.svg" loading="lazy"/>
+      <img src="github.svg" loading="lazy"/>
         </figure>
 
         <div class="blog-content">

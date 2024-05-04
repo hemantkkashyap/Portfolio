@@ -14,7 +14,7 @@ export default function Projects() {
     {
       name: 'Codebox',
       category: 'Desktop Application',
-      image: 'Codebox.png',
+      image: 'codebox.png',
       link: 'https://github.com/hemantkkashyap/CodeBox.git'
     },
     {
