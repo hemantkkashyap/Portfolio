@@ -11,3 +11,11 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* h1, p {
+  font-family: 'Poppins', sans-serif; /* Apply Poppins font to h1 and p
+} */
+
+body {
+  font-family: 'Winky Sans', sans-serif; /* Set Winky Sans as the default font */
+}
