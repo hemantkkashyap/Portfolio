@@ -48,7 +48,7 @@ const Page = () => {
 
 
         <Tooltip title="Resume" arrow>
-          <IconButton onClick={() => window.open('/resume.pdf', '_blank')}>
+          <IconButton onClick={() => window.open('/hemantkashyap.pdf', '_blank')}>
             <img src="https://static.vecteezy.com/system/resources/previews/030/774/936/original/3d-cv-resume-icon-png.png" alt="Experience" className="h-[40px]"/>
           </IconButton>
         </Tooltip>
