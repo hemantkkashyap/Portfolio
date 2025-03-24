@@ -3,11 +3,13 @@ import { GitHub, Launch } from '@mui/icons-material';
 import { IconButton, CardContent } from '@mui/material';
 interface ProjectCardProps {
     projectName: string;
+    description: string;
     liveLink: string;
     githubLink: string;
+    image: string;
   }
   
-const ProjectCard: React.FC<ProjectCardProps> = ({ projectName, liveLink, githubLink }) => {
+const ProjectCard: React.FC<ProjectCardProps> = ({ projectName, liveLink, githubLink,description,image }) => {
    return (
     <div className="lg:w-[48%] min-h-[50vh] h-[50vh] bg-[#171717] rounded-[15px]"   style={{ boxShadow: "0px 0px 15px 0px rgba(34, 34, 34, 0.5)" }}>
       <CardContent sx={{ flexGrow: 1 }}>
@@ -15,11 +17,9 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ projectName, liveLink, github
             {projectName}
           </p>
 
-          <img src="https://wallpapercave.com/wp/wp4511378.jpg" alt="" className='rounded-[5px] mt-2' />
+          <img src={image} alt="" className='rounded-[5px] mt-2' />
       <p className="lg:text-[2vh] text-[2vh] text-[#B6B6B6] mt-3">
-            Hi, I&apos;m Hemant Kumar Kashyap, a passionate Software Engineer focused
-            on building scalable and efficient solutions. With a strong
-            
+            {description}
           </p>
 
         <div className='mt-2'>
